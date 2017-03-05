@@ -23,10 +23,11 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
@@ -44,8 +45,8 @@
 \familyname{de las Cuevas Delgado} % Your last name
 
 % All information in this block is optional, comment out any lines you don't need
-\title{Telecommunications Engineer, PhD Student}
-\address{Avenida Fernando de los Ríos 60, 6ºF}{18006, Granada}
+%\title{Telecommunications Engineer, PhD Student}
+%\address{Avenida Fernando de los Ríos 60, 6ºF}{18006, Granada}
 \mobile{(+34) 686056279}
 %\phone{(000) 111 1112}
 %\fax{(000) 111 1113}
@@ -54,8 +55,8 @@
 \social[twitter]{unintendedbear}                             % optional, remove / comment the line if not wanted
 \social[github]{unintendedbear}
 %\homepage{https://github.com/unintendedbear}{https://github.com/unintendedbear} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
-%\extrainfo{}
-\photo[70pt][0.4pt]{pictures/photo} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\extrainfo{Place and date of birth: Huelva, 25 August 1986}
+\photo[50pt][0.4pt]{pictures/photo} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 %\quote{"A witty and playful quotation" - John Smith} 
 
 \makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
@@ -66,20 +67,9 @@
 
 \makecvtitle % Print the CV title
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
+\section{Objective}
 
-\section{Education}
-
-\cventry{2015--2016}{MS, Teaching Compulsory and Pre-University Secondary Education, Vocational Training and Language Teaching}{Computer Science Specialisation.}{University of Granada}{\textit{9.33/10} -- \textit{2.77/4}}{}  % Arguments not required can be left empty
-\cvline{Dissertation:}{\small A study on the influence of gender factors on student's higher education choice.}
-\cventry{2013--2014}{MS, Computer and Network Engineering}{Upper Technical School of Computer Science and Telecommunications Engineering}{University of Granada}{\textit{9.285/10} -- \textit{2.9/4}}{}
-\cvline{Dissertation:}{\small Applying Soft Computing Techniques to Corporate Mobile Security Systems.}  % Arguments not required can be left empty
-\cventry{2007--2013}{Extra courses}{Home Automation and Environment Intelligence, Perl, Mobile phone platforms for communication and processing, and Computational Engineering.}{Upper Technical School of Computer Science and Telecommunications Engineering}{University of Granada}{}
-\cventry{2004--2012}{BS, Telecommunications Engineer}{Upper Technical School of Computer Science and Telecommunications Engineering}{University of Granada}{\textit{6.807/10}}{}
-\cvline{Dissertation:}{\small Multiplayer System for Open Environments using 3G smartphones.}
-
+To continue growing as an engineer, exploring new technologies and learning from the teams I work with, while contributing to them with my experience and motivation.
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -89,86 +79,130 @@
 
 \subsection{Vocational}
 
-\cventry{2014--Present}{PhD Student}{Computer Technology and Architecture Department}{Upper Technical School of Computer Science and Telecommunications Engineering}{University of Granada}{}
+\cventry{2016--Present}{Speaker}{``Imagine, discover, create''}{Various Primary Schools}{Granada}{
+	Speaker in a series of talks to children in order to encourage them into studying an engineering degree.
+}
+
+%------------------------------------------------
+
+\cventry{2014--Present}{PhD Student}{Computer Technology and Architecture Department}{Upper Technical School of Computer Science and Telecommunications Engineering}{University of Granada}{
+	Working with Java, Python, and R.
+}
 
 %------------------------------------------------
 
 \cventry{2014--Present}{Teacher}{Girls Summer Code Campus}{Upper Technical School of Computer Science and Telecommunications Engineering}{University of Granada}{
-	Teacher in a summer campus for girls in which they learn how to program in different platforms, as well as making their own project, with the aim of making the engineerings attractive for them. The first edition of this campus was funded by Google.
+	Teacher in a summer campus for girls in which they learn how to program in different platforms, such as Arduino (including Lilypad), Scratch, Raspberry Pi, and AppInventor, among others. In addition, they make their own project, with the aim of making the engineerings attractive for them. The first edition of this campus was funded by Google.
 }
 
 %------------------------------------------------
 
 \cventry{2016}{Teaching Assistant}{\textit{Zaidín-Vergeles} High School}{Granada}{}{
-Teaching the following courses:
-\begin{itemize}
-\item Databases with OpenOffice to 1st year of Upper Secondary Education.
-\item Markup Languages to 1st year of Vocational Training Education, speciality Computer Systems and Networks.
-\end{itemize}}
-
-%------------------------------------------------
-
-\cventry{2012--2015}{Main Researcher}{Upper Technical School of Computer Science and Telecommunications Engineering}{University of Granada}{}{
-	Main researcher inside FP7 project \textbf{MUSES} (\textit{Multiplatform Usable Endpoint Security}) \url{https://www.musesproject.eu/}.
-	System architecture work package leader, co-designer of the system architecture, developer of the Knowledge Refinement System module, mainly in charge of evolving security rules inside a ``Bring Your Own Device'' environment.
-}
-
-%------------------------------------------------
-
-\cventry{2012}{Intern}{\textsc{Sociedad Española de Montajes Industriales S.L.}}{Granada}{}{Project management and documentation for Ericsson, Huawei, and Nokia Siemens. Also accountant and in charge of customer service.}
-
-%------------------------------------------------
-
-\subsection{Volunteering}
-
-\cventry{2016--Present}{Co-Founder, Speaker}{Geek \& Tech Girls}{Granada}{}{
-	Founder of the Geek \& Tech Girls organisation, devoted to bring technology and engineering closer to women, by organising meetings, talks, tutorials, discussions, and colaborations with other associations.
+	Teaching the following courses:
+	\begin{itemize}
+		\item Databases with OpenOffice to 1st year of Upper Secondary Education.
+		\item Markup Languages to 1st year of Vocational Training Education, speciality Computer Systems and Networks.
+	\end{itemize}}
+	
+	%------------------------------------------------
+	
+	\cventry{2012--2015}{Main Researcher}{Upper Technical School of Computer Science and Telecommunications Engineering}{University of Granada}{}{
+		Main researcher inside FP7 project \textbf{MUSES} (\textit{Multiplatform Usable Endpoint Security}) \url{https://www.musesproject.eu/}.
+		System architecture work package leader, co-designer of the system architecture, developer of the Knowledge Refinement System module, mainly in charge of evolving security rules inside a ``Bring Your Own Device'' environment. Main technologies involved in the project: SQL databases, Java, Continuous Integration with Jenkins, Android.
 	}
 	
-\cventry{2015}{Volunteer}{YAPC::Europe (Yet Another Perl Conference)}{Granada}{}{
-	Organiser of tapas lunch, chair assistant during the whole conference.
-}
+	%------------------------------------------------
+	
+	\cventry{2012}{Intern}{\textsc{Sociedad Española de Montajes Industriales S.L.}}{Granada}{}{Project management and documentation for Ericsson, Huawei, and Nokia Siemens. Also accountant and in charge of customer service.}
+	
+	%------------------------------------------------
+	
+	\subsection{Volunteering and External Projects}
+	
+	\cventry{2016--Present}{Co-Founder, Speaker}{Geek \& Tech Girls}{Granada}{}{
+		Founder of the Geek \& Tech Girls organisation, devoted to bring technology and engineering closer to women, by organising meetings, talks, tutorials, discussions, and colaborations with other associations.
+	}
+	
+	\cventry{2015}{Volunteer}{YAPC::Europe (Yet Another Perl Conference)}{Granada}{}{
+		Organiser of tapas lunch, chair assistant during the whole conference.
+	}
+	
+	%------------------------------------------------
+	
+	\subsection{Other}
+	
+	\cventry{2010--2011}{Accountant Assistant}{DH Servicios Integrales Jurídicos e Inmobiliarios}{Granada}{}{Property administrator assistant, customer service, accountancy, and computer technician.}
+	
+\section{Qualification}
 
-%------------------------------------------------
+\cvlistitem{Resolute, resourceful, and proactive}
+\cvlistitem{Fluent English, CAE certification (C1)}
+\cvlistitem{Used to attend international meetings, coordinating with different work package leaders}
+\cvlistitem{Interested in hackathons, either as an organiser or attendee, and with different topics: videogames, IoT, open data, and open hardware}
+\cvlistitem{Used to huge workloads and committed with deadlines}
+\cvlistitem{Quick learner}
 
-\subsection{Other}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
 
-\cventry{2010--2011}{Accountant Assistant}{DH Servicios Integrales Jurídicos e Inmobiliarios}{Granada}{}{Property administrator assistant, customer service, accountancy, and computer technician.}
+\section{Education}
 
-\section{Technical Experience}
-\subsection{Extremely Proficient With}
-\cvline{languages}{Java, Perl, Python, HTML, XML, Matlab}
-\cvline{technologies}{MySQL, \LaTeX{}, Git, Eclipse, Weka, Atom, Windows, Ubuntu, Continuous Integration, Gimp, Inkscape}
-\subsection{Have Experience With}
-\cvline{languages}{R, PHP, C, C++, VHDL, C\#, CSS}
-\cvline{technologies}{Apache, Emacs, Photoshop, OSX, Scrum Methodology}
+\cventry{2015--2016}{MS, Teaching Compulsory and Pre-University Secondary Education, Vocational Training and Language Teaching}{Computer Science Specialisation.}{University of Granada}{\textit{9.33/10} -- \textit{2.77/4}}{}  % Arguments not required can be left empty
+\cvline{Dissertation:}{\small A study on the influence of gender factors on student's higher education choice. \textit{9.6/10}}
+\cventry{2013--2014}{MS, Computer and Network Engineering}{Upper Technical School of Computer Science and Telecommunications Engineering}{University of Granada}{\textit{9.285/10} -- \textit{2.9/4}}{}
+\cvline{Dissertation:}{\small Applying Soft Computing Techniques to Corporate Mobile Security Systems. \textit{10/10}}  % Arguments not required can be left empty
+\cventry{2007--2013}{Extra courses}{Home Automation and Environment Intelligence, Perl, Mobile phone platforms for communication and processing, and Computational Engineering.}{Upper Technical School of Computer Science and Telecommunications Engineering}{University of Granada}{}
+\cventry{2004--2012}{BS, Telecommunications Engineer}{Upper Technical School of Computer Science and Telecommunications Engineering}{University of Granada}{\textit{6.807/10}}{}
+\cvline{Dissertation:}{\small Multiplayer System for Open Environments using 3G smartphones. \textit{10/10}}
+
+
+
+%
+%\section{Technical Experience}
+%\subsection{Extremely Proficient With}
+%\cvline{languages}{Java, Perl, Python, HTML, XML, Matlab}
+%\cvline{technologies}{MySQL, \LaTeX{}, Git, Eclipse, Weka, Atom, Windows, Ubuntu, Continuous Integration, Gimp, Inkscape}
+%\subsection{Have Experience With}
+%\cvline{languages}{R, PHP, C, C++, VHDL, C\#, CSS}
+%\cvline{technologies}{Apache, Emacs, Photoshop, OSX, Scrum Methodology}
 
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
 %----------------------------------------------------------------------------------------
 
-\nocite{*}
-\bibliographystyle{plain}
-\bibliography{publications} 
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}
+
+\section{Publications}
+
+\cvline{}{9 conference papers, 3 JCR journal papers, and 1 book chapter}
+\cvline{}{Reviewed 1 journal paper}
+\cvline{DBLP:}{\href{http://dblp.uni-trier.de/pers/hd/c/Cuevas:Paloma_de_las}{P. de las Cuevas}}
 
 %----------------------------------------------------------------------------------------
 %	LANGUAGES SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Languages}
-
-\cvitemwithcomment{Spanish}{Native}{}
-\cvitemwithcomment{English}{Cambridge English: Advanced (C1)}{2014}
-\cvitemwithcomment{Italian}{Medium}{Have been living in Rome during 2009--2010 academic year}
-\cvitemwithcomment{French}{Read: Medium, Spoken: Basic}{}
+%\section{Languages}
+%
+%%\cvitemwithcomment{Spanish}{Native}{}
+%\cvitemwithcomment{English}{Cambridge English: Advanced (C1)}{2014}
+%\cvitemwithcomment{Italian}{Medium}{Have been living in Rome during 2009--2010 academic year}
+%\cvitemwithcomment{French}{Read: Medium, Spoken: Basic}{}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Hobbies}
+\section{Interests and Activities}
 
 \cvline{}{Cooking, Reading, Live Music, Scientific paper reading, Traveling, Videogames}
+
+\section{References}
+
+\cvline{}{Available upon request}
 
 %\section{Intereses}
 
